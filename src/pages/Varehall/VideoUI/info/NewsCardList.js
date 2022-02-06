@@ -20,7 +20,7 @@ const CardNewsList = ({
     <Card
       style={{
         borderColor: videoUrl == index ? "red" : "",
-        width: 395,
+        width: 350,
         height: 300,
         padding: 10,
         flexDirection: "row",
@@ -48,7 +48,7 @@ const CardNewsList = ({
             bottom: 10,
             backgroundColor: "rgba(0,0,0,.80)",
             height: "90px",
-            width: "95%",
+            width: "94%",
             flexDirection: "column",
             paddingLeft: 10,
             paddingTop: "5px",
