@@ -1,0 +1,19 @@
+@media screen and (max-width: 580px) {
+    .container {
+      flex-direction: row;
+    }
+    .vdeoComponent {
+     order: 1;
+    }
+    .commenstField {
+     order: 2;
+    }
+    .userinfo {
+      order: 3;
+    }
+
+    .userContainer {
+      flex-direction: row;
+    }
+
+}

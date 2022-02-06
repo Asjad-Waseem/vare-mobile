@@ -1,0 +1,52 @@
+/* Template Name: Xeril
+   Author: Themesdesign
+   Version: 1.0.0
+   File Description: Main Css file of the template
+*/
+/****************************************\
+
+01.general
+02.helper
+03.components
+04.menu
+05.home
+06.about
+07.services
+08.features
+09.video
+10.cta
+11.download
+12.sreenshort
+13.counter
+14.pricing
+15.client
+16.faq
+17.contact
+18.footer
+19.responsive
+
+*****************************************/
+.font10 {
+  font-size: 5px !important;
+}
+
+.input-icons i {
+       position: absolute;
+   }
+
+   .input-icons {
+       width: 100%;
+       margin-bottom: 10px;
+   }
+
+   .icon {
+       padding: 10px;
+       min-width: 40px;
+   }
+
+   .input-field {
+       width: 100%;
+       padding: 10px;
+       text-align: center;
+   }
+/*# sourceMappingURL=style.css.map */

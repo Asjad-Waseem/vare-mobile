@@ -1,0 +1,5 @@
+.my-cool-select-top .Select-menu-outer {
+  background-color: 'red';
+  top: auto;
+  bottom: 100%;
+}
