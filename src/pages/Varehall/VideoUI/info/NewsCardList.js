@@ -124,7 +124,7 @@ const CardNewsList = ({
               flexDirection: "row"
             }}
           >
-            <div style={{paddingLeft: 20}}>
+            <div style={ real.title.length < 30 ? { paddingLeft: "20", marginTop: "20px" } : { paddingLeft: "20px" } }>
               {real.date
                 ? moment(real.date || moment.now()).fromNow()
                 : real.publishedAt
@@ -148,11 +148,13 @@ const CardNewsList = ({
                                 detailsIndex == index ? -1 : index
                               );
                             }}
-                            style={{
+                            style={
+                              real.title.length < 30 ? { marginTop: "-25px", color: "#2096F3", marginRight: "10px" } : { 
                               color: "#2096F3",
                               marginTop: "-45px",
                               marginRight: "10px"
-                            }}
+                              }
+                            }
                           />
                         </div>
 
