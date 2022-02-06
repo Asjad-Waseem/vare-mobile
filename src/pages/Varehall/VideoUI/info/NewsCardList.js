@@ -48,7 +48,7 @@ const CardNewsList = ({
             bottom: 10,
             backgroundColor: "rgba(0,0,0,.80)",
             height: "90px",
-            width: "94%",
+            width: "94.2%",
             flexDirection: "column",
             paddingLeft: 10,
             paddingTop: "5px",
@@ -111,7 +111,7 @@ const CardNewsList = ({
               flexWrap: "wrap"
             }}
           >
-            {real.title ? real.title.substring(0, 80) + "..." : ""}
+            {real.title ? real.title.substring(0, 70) + "..." : ""}
           </div>
 
           <div
